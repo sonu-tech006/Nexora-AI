@@ -17,15 +17,7 @@ node_modules/
 client/.env
 server/.env
 
-# Package JSON & Lock files (Per your request, though typically package.json is kept)
-package-lock.json
-/client/package-lock.json
-/server/package-lock.json
 
-# If you also explicitly want to hide package.json (Not recommended, but requested)
-package.json
-/client/package.json
-/server/package.json
 
 # Builds
 dist/
