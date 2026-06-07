@@ -59,11 +59,10 @@ export const generateArticle = async (req, res) => {
 
     res.json({ success: true, content });
   } catch (error) {
+    console.error("DEBUG FULL ERROR:", JSON.stringify(error.response?.data || error.message, null, 2));
     let errorMessage = error.response?.data?.error?.message || error.response?.data || error.message;
     if (typeof errorMessage === 'string' && errorMessage.includes('429')) {
       errorMessage = 'API Rate Limit Exceeded. Please wait a few seconds and try again.';
-    } else if (typeof errorMessage === 'string' && errorMessage.includes('400')) {
-      errorMessage = 'Bad Request: Please check the values provided for article generation.';
     } else if (typeof errorMessage === 'object') {
       errorMessage = errorMessage.message || "An error occurred.";
     }
