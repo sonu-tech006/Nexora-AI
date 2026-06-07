@@ -1,8 +1,8 @@
 // import axios from 'axios';
 
 // axios.defaults.adapter = async (config) => {
-//   const url = https://smartai-studio-full-stack-ai-saas-a0io.onrender.com;
-  
+//   const url = "https://smartai-studio-full-stack-ai-saas-m0n0.onrender.com";
+//   
 //   // artificial delay for realism
 //   await new Promise(resolve => setTimeout(resolve, 1000));
 
