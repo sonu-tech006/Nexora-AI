@@ -41,7 +41,7 @@ import axios from "axios";
 axios.defaults.adapter = async (config) => {
   const requestUrl = config.url; // ✅ REAL request URL
 
-  const fullUrl = "http://localhost:3000" + requestUrl;
+  const fullUrl = (import.meta.env.VITE_BACKEND_URL || "http://localhost:3000") + requestUrl;
 
   console.log("Mock API called:", fullUrl);
 
