@@ -1,5 +1,4 @@
 import { useNavigate } from "react-router-dom";
-import { assets } from "../assets/assets";
 import { ArrowRight } from "lucide-react";
 import { UserButton, useUser, SignInButton } from "@clerk/clerk-react";
 
@@ -10,12 +9,15 @@ const Navbar = () => {
 
   return (
     <div className="fixed z-5 w-full backdrop-blur-2xl flex justify-between items-center py-3 px-4 sm:px-20 xl:px-32 cursor-pointer">
-      <img
+      <div
         onClick={() => navigate("/")}
-        src={assets.logo}
-        alt="logo"
-        className="w-32 sm:w-44 cursor-pointer"
-      />
+        className="flex items-center gap-1 cursor-pointer select-none"
+      >
+        <span className="text-2xl sm:text-3xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 via-violet-600 to-purple-600 bg-clip-text text-transparent">
+          Nexora
+        </span>
+        <span className="text-2xl sm:text-3xl font-extrabold text-gray-800">.ai</span>
+      </div>
 
       {user ? (
         <UserButton />

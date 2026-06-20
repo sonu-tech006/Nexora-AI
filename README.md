@@ -1,6 +1,6 @@
 <div align="center">
 
-# SmartAI Studio ⚡
+# Nexora.ai ⚡
 
 AI-Powered Content Generation at Your Fingertips
 
@@ -17,6 +17,10 @@ AI-Powered Content Generation at Your Fingertips
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
+
+<br/>
+
+![Nexora.ai Dashboard](assets/dashboard.png)
 
 ## LIVE - DEMO 🌐
 Visit the 👉 [_LINK 🔗_]()
@@ -47,7 +51,7 @@ Visit the 👉 [_LINK 🔗_]()
 
 ## Overview
 
-QUICKAI is a comprehensive AI SaaS platform that provides:
+Nexora.ai is a comprehensive AI SaaS platform that provides:
 
 - 🎨 AI Image Generation and Editing
 - 📝 Intelligent Content Creation
@@ -332,7 +336,7 @@ For any questions or support, please contact:
 
 <div align="center">
 
-**QUICKAI** - Supercharge your creativity with AI! 🚀
+**Nexora.ai** - Supercharge your creativity with AI! 🚀
 
 *Built with ❤️ using the PERN stack and cutting-edge AI technologies.*
 

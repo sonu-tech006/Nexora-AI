@@ -7,9 +7,14 @@ const Footer = () => {
       <footer className="fade-in-on-scroll px-6 md:px-16 lg:px-24 xl:px-32 pt-16 w-full bg-white text-gray-700 hover:bg-slate-900 group transition-all duration-300 ease-in-out font-normal antialiased">
         <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-300 group-hover:border-slate-700 pb-10 transition-colors duration-300 ease-in-out">
           <div className="md:max-w-96">
-            <img className="h-9 transition-all duration-300 ease-in-out group-hover:brightness-0 group-hover:invert" src={assets.logo} alt="logo" />
+            <div className="flex items-center gap-1 select-none">
+              <span className="text-2xl font-extrabold tracking-tight bg-gradient-to-r from-blue-600 via-violet-600 to-purple-600 bg-clip-text text-transparent group-hover:from-blue-400 group-hover:via-violet-400 group-hover:to-purple-400">
+                Nexora
+              </span>
+              <span className="text-2xl font-extrabold text-gray-800 group-hover:text-white transition-colors duration-300">.ai</span>
+            </div>
             <p className="mt-6 text-sm text-gray-700 group-hover:text-gray-300 transition-colors duration-300 ease-in-out">
-              Experience the power of AI with QuickAi. <br /> Transform your
+              Experience the power of AI with Nexora.ai. <br /> Transform your
               content creation with our suite of premium AI tools. Write articles,
               generate images, and enhance your workflow.
             </p>
